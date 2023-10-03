@@ -1,24 +1,35 @@
 <!doctype html>
 
 <html>
+
 <head>
-<title>Snakes and Ladder</title>
+    <title>Snakes and Ladder</title>
 </head>
+
 <body>
-<h1>Snakes and Ladder game</h1>
-<div id="rules">
-<h2>Rules</h2>
-<ul>
-<li>The players will start out at the position 1, and the game will last until one of the players achieves the position 100.</li>
-<li>The position of the players will move according to what they have rolled from the dice. For example, if a player rolls 3, then their position will be 4.</li>
-<li>To win the game, the player must reach the position 100 exactly. For example, if they are at position 99, then they must roll 1 to reach 100. If they roll more than this, then they have to wait for their next turn to roll again.</li>
-<li>Along the way, there are snakes present in the game. these snakes have a head and tail on various number. For example, if there is a snake from the position 6 to 16, then its head will be on 16. If you land on 16 after rolling the dice, then you will land where the tail of the snake is. In this case, it will be 6.</li>
-<li>If you roll 6, you get another chance to roll the dice. This is same for the all players of the game.</li>
-</ul>
-</div>
-<button id="startButton">Start Playing</button>
-<button id="rollButton" style="display: none;">Roll the dice</button>
-<p id="message"></p>
+    <h1>Snakes and Ladder game</h1>
+    <div id="rules">
+        <h2>Rules</h2>
+        <ul>
+            <li>The players will start out at the position 1, and the game will last until one of the players achieves
+                the position 100.</li>
+            <li>The position of the players will move according to what they have rolled from the dice. For example, if
+                a player rolls 3, then their position will be 4.</li>
+            <li>To win the game, the player must reach the position 100 exactly. For example, if they are at position
+                99, then they must roll 1 to reach 100. If they roll more than this, then they have to wait for their
+                next turn to roll again.</li>
+            <li>Along the way, there are snakes present in the game. these snakes have a head and tail on various
+                number. For example, if there is a snake from the position 6 to 16, then its head will be on 16. If you
+                land on 16 after rolling the dice, then you will land where the tail of the snake is. In this case, it
+                will be 6.</li>
+            <li>If you roll 6, you get another chance to roll the dice. This is same for the all players of the game.
+            </li>
+        </ul>
+    </div>
+    <button id="startButton">Start Playing</button>
+    <button id="rollButton" style="display: none;">Roll the dice</button>
+    <p id="message"></p>
 </body>
 <script src="snakes-and-ladder.js"></script>
+
 </html>
