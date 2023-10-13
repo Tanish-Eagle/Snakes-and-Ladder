@@ -1,0 +1,55 @@
+Goles of the project:
+
+To implement a traditional Snakes and Ladder game. For this purpose, JavaScript and HTML will be used.
+
+The project will not use any graphics. Only text will be used for communicating with the player.
+
+Rules of the game:
+
+1. Both players start from the position 1, and the game will last until one of them reaches the position 100. The first player to do so will be the winner.
+
+2. The players will increase their position by rolling a dice. The dice will give the result from 1 to 6. Based on what a player may roll, their position will be increased. For example, if a player rolls 2, and their position is 1, then their position will be 3.
+
+3. If a player rolls number 6, then they get to reroll the dice. They can keep rerolling the dice as long as they get the number 6.
+
+4. There are snakes in the way. These snakes have mouths and tails of various numbers. If a player lands on a number where the mouth of the snake is, then this player will be bitten, and they will land on where the tail of the snake is.
+
+For example, if there is a snake whose mouth on 10, and tail on 5, and if a player lands on number 10, then the player will end up losing their position, and their new position will be number 5.
+
+5. Once a player reaches a number close to 100, they must roll a number that gets them on the number 100 exactly.
+
+For example, if a player is on 99, and they roll number 2, then they must wait until their next turn to roll the dice. But if they roll 1, then they reach number 100, and then they are the winner of the game.
+
+List of snakes and their numbers:
+
+First snake: mouth on 16, tail on 6.
+
+second snake: Mouth on 48, tale on 26.
+
+Third snake: mouth on 52, tail on 29.
+
+Fourth snake: Mouth on 55, tail on 45.
+
+Fifth snake: Mouth on 64, tail on 60.
+
+Sixth snake: mouth on 62, tail on 18.
+
+Seventh snake: Mouth on 87, tail on 24.
+
+Eighth snake: Mouth on 92, tail on 88.
+
+Ninth snake: Mouth on 95, tail on 75.
+
+Tenth snake: Mouth on 98, tail on 78.
+
+Game logic:
+
+1. Start with a refresher on the rules, and a button named "Start playing"
+
+2. Once the game starts, give the first turn to the human player, and allow them to roll the dice.
+
+3. Once the game is concluded, announce the winner, and the final position of the losing player.
+
+4. Make the button "Start playing" appear once again on the page.
+
+5. Make sure that the list of the snakes and the number where their mouths and tails are located is available throughout the game.
